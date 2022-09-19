@@ -21,22 +21,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={cryptoExchange}
+              imgPath={chatApp}
               isBlog={false}
-              title="Crypto Exchange"
-              description="Decentralized app allows you to buy, sell, deposit, and withdraw tokens/ether."
-              ghLink="https://github.com/ezg97/Crypto-Exchange"
-              demoLink="https://fanciful-biscochitos-273de0.netlify.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ezgSwap}
-              isBlog={false}
-              title="EZG Swap"
-              description="Buy and Sell my custom made tokens for Ether."
-              ghLink="https://github.com/ezg97/EZG-Swap"
+              title="Chat App"
+              description="Create your own profile then message, search, and add your friends (links)."
+              ghLink="https://github.com/ezg97/chat-app-client"
+              demoLink="https://www.chat-app.dev/"
             />
           </Col>
 
@@ -53,12 +43,22 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatApp}
+              imgPath={cryptoExchange}
               isBlog={false}
-              title="Chat App"
-              description="Create your own profile then message, search, and add your friends (links)."
-              ghLink="https://github.com/ezg97/chat-app-client"
-              demoLink="https://www.youtube.com/watch?v=wuC-YCVMPOg&ab_channel=Elijah"
+              title="Crypto Exchange"
+              description="Decentralized app allows you to buy, sell, deposit, and withdraw tokens/ether."
+              ghLink="https://github.com/ezg97/Crypto-Exchange"
+              demoLink="https://fanciful-biscochitos-273de0.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ezgSwap}
+              isBlog={false}
+              title="EZG Swap"
+              description="Buy and Sell my custom made tokens for Ether."
+              ghLink="https://github.com/ezg97/EZG-Swap"
             />
           </Col>
         </Row>
